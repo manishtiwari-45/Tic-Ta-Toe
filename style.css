@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #1c2940;
+    text-align: center;
+  }
+  #tic {
+    color: chartreuse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+ .manish {
+    color: darkorange;
+    font-size: x-large;
+    font-weight: 900;
+    font-style: italic;
+ }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(18, 59, 184, 0.3);
+    font-size: 8vmin;
+    color: #f4f5f3;
+    background-color: #8c9680;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #b00b0b;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #c50d9a;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #59f22a;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
